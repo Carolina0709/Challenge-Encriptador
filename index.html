@@ -2,7 +2,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Challenge - Encryptor</title>
+    <link rel="shortcut icon" href="./img/robot1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>CryptoBot</h1>
+
+      <div class="ctn-arrow">
+        <a href="#" onclick="toggleMain();"
+          ><img class="arrow-img" src="./img/arrow.png" alt="Arrow icon"
+        /></a>
+      </div>
+      <div class="ctn-border">
+        <section class="ctn-all">
+          <div class="ctn-item ctn-first">
+            <div class="ctn-img">
+              <div class="ctn-img-text ctn-img-text1">
+                <img src="./img/warning.png" alt="Warning Icon" />
+                <p>¡ Ningún mensaje fue encontrado !</p>
+              </div>
+              <img class="item-img1" src="./img/robot1.png" alt="Robot image" />
+            </div>
+            <div class="ctn-text">
+              <form action="">
+                <textarea
+                  name=""
+                  id="textarea1"
+                  placeholder="Ingresa el mensaje que quieres encriptar"
+                ></textarea>
+                <div class="ctn-info">
+                  <img src="./img/info.svg" alt="Information icon" />
+                  <p>Solo letras minusculas y sin acentos</p>
+                </div>
+
+                <div class="ctn-btn">
+                  <a class="btn-encrypt" href="#" onclick="toggleMain();"
+                    >ENCRIPTAR</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="ctn-item ctn-second">
+            <div class="ctn-text">
+              <form action="">
+                <textarea
+                  name=""
+                  id="textarea2"
+                  placeholder="Ingresa el mensaje que quieres desencriptar"
+                ></textarea>
+                <div class="ctn-info hide">
+                  <img src="./img/info.svg" alt="Information icon" />
+                  <p>Mensaje copiado exitosamente</p>
+                </div>
+                <div class="ctn-btn ctn-double-btn">
+                  <a id="btn-copy" href="#" onclick="">COPIAR</a>
+                  <a class="btn-decrypt" href="#" onclick="toggleMain();"
+                    >DESENCRIPTAR</a
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="ctn-img">
+              <div class="ctn-img-text ctn-img-text2">
+                <img src="./img/warning.png" alt="Warning Icon" />
+                <p>¡ Ningún mensaje fue encontrado !</p>
+              </div>
+              <img src="./img/robot2.png" alt="Robot image" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="cursor"></div>
+    <footer>
+      <img src="./img/copyright.png" alt="Copyright icon" />
+      <p>
+        Sitio desarrolado por: <br />
+        <span>Carolina González Martin</span>
+      </p>
+    </footer>
+    <script src="./script/efects.js"></script>
+    <script src="./script/encryptor.js"></script>
+  </body>
 </html>
