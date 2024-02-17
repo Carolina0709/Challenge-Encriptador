@@ -8,9 +8,9 @@ Este proyecto es el resultado del Primer Challenge del programa ONE propuesto po
 
 ## Descripción
 
-El Cryptobot es una aplicación diseñada para encriptar texto que permite intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Cryptobot es una aplicación diseñada para encriptar texto que permite intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
-Las **llaves** de encriptación que utilizaremos son las siguientes:
+Las **llaves** de encriptación son las siguientes:
 
 - La letra "e" es convertida para "enter"
 - La letra "i" es convertida para "imes"
@@ -20,11 +20,9 @@ Las **llaves** de encriptación que utilizaremos son las siguientes:
 
 ## Características
 
-- Encriptación de texto utilizando algoritmos modernos y seguros.
+- Encriptación de texto utilizando JavaScript, en especifico la función replace.
 - Interfaz de usuario amigable y fácil de usar.
-- Personalización de opciones de encriptación.
-- Soporte para múltiples métodos de encriptación.
-- Compatibilidad con diferentes tipos de archivos y formatos de texto.
+- Responsividad.
 
 ## Tecnologías Utilizadas
 
