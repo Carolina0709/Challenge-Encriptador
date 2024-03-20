@@ -20,11 +20,11 @@ const Encryptor = (function () {
   btnDecrypt.addEventListener("click", () => {
     const text = textArea2.value.trim();
     const newText = text
-      .replace(/enter/g, "e")
-      .replace(/imes/g, "i")
-      .replace(/ai/g, "a")
+      .replace(/ufat/g, "u")
       .replace(/ober/g, "o")
-      .replace(/ufat/g, "u");
+      .replace(/ai/g, "a")
+      .replace(/imes/g, "i")
+      .replace(/enter/g, "e");
     textArea2.value = "";
     insertText(newText, textArea1);
   });
